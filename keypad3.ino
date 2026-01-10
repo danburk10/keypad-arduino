@@ -1,4 +1,5 @@
-#keypad + sdcard read
+//keypad & sdcard read
+// you punch two digits and then it reads the SD card for that line# and keyboard.print(line# data)
 
 #include <SPI.h>
 #include <SdFat.h>
